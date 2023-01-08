@@ -22,5 +22,5 @@ echo -e -n "
 In order to install, please execute the following commands:
 ${YELLOW}
 bin/build
-sudo cp build/src/src/gnome-screenshot-noflash /usr/local/bin/${RESET}
+sudo cp build/src/gnome-screenshot-noflash /usr/bin/${RESET}
 "
