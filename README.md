@@ -5,6 +5,34 @@ This is a mirror of https://gitlab.gnome.org/GNOME/gnome-screenshot with
 
 `bin/build` for build and `bin/install` for installation.
 
+## Building in Ubuntu 22.04
+
+```shell
+docker run --rm -i ubuntu:22.04 << 'EOF'
+cd
+apt update
+DEBIAN_FRONTEND=noninteractive apt install -y git meson build-essential gettext libglib2.0-dev libgtk-3-dev libhandy-1-dev
+
+git clone https://github.com/vbarbarosh/gnome-screenshot-noflash
+cd gnome-screenshot-noflash
+bin/build
+EOF
+```
+
+## Building in Ubuntu 22.10
+
+```shell
+docker run --rm -i ubuntu:22.10 << 'EOF'
+cd
+apt update
+DEBIAN_FRONTEND=noninteractive apt install -y git meson build-essential gettext libglib2.0-dev libgtk-3-dev libhandy-1-dev
+
+git clone https://github.com/vbarbarosh/gnome-screenshot-noflash
+cd gnome-screenshot-noflash
+bin/build
+EOF
+```
+
 GNOME Screenshot
 ================
 
