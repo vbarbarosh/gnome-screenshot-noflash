@@ -12,7 +12,6 @@ docker run --rm -i ubuntu:22.04 << 'EOF'
 cd
 apt update
 DEBIAN_FRONTEND=noninteractive apt install -y git meson build-essential gettext libglib2.0-dev libgtk-3-dev libhandy-1-dev
-
 git clone https://github.com/vbarbarosh/gnome-screenshot-noflash
 cd gnome-screenshot-noflash
 bin/build
@@ -26,7 +25,6 @@ docker run --rm -i ubuntu:22.10 << 'EOF'
 cd
 apt update
 DEBIAN_FRONTEND=noninteractive apt install -y git meson build-essential gettext libglib2.0-dev libgtk-3-dev libhandy-1-dev
-
 git clone https://github.com/vbarbarosh/gnome-screenshot-noflash
 cd gnome-screenshot-noflash
 bin/build
