@@ -34,7 +34,7 @@ c_args = [
 ]
 
 executable(
-  'gnome-screenshot',
+  'gnome-screenshot-noflash',
   sources + resources,
   include_directories: include_directories,
   dependencies: dependencies,
