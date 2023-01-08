@@ -1,3 +1,10 @@
+# gnome-screenshot-noflash
+
+This is a mirror of https://gitlab.gnome.org/GNOME/gnome-screenshot with
+**flash** feature permanently turned off.
+
+`bin/build` for build and `bin/install` for installation.
+
 GNOME Screenshot
 ================
 
